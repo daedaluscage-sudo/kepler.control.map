@@ -5,7 +5,7 @@ import path from 'path';
 export default defineConfig({
   plugins: [react()],
   // For GitHub Pages: change 'kepler-ua-map' to your repo name
-  base: '/kepler-ua-map/',
+  base: '/kepler.control.map/',
   build: {
     outDir: 'dist',
     sourcemap: false,
