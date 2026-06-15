@@ -24,7 +24,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-      - run: npm install --legacy-peer-deps
+      - run: npm ci --legacy-peer-deps
       - run: |
           python3 convert_kmz.py
           mkdir -p public/data
