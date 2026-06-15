@@ -1,0 +1,59 @@
+{
+  "map_name": "Ukraine Control Map v2",
+  "layers": [
+    {
+      "filename": "frontline.geojson",
+      "label": "Frontline",
+      "feature_count": 2,
+      "geometry_type": "LineString"
+    },
+    {
+      "filename": "important_areas.geojson",
+      "label": "Important Areas",
+      "feature_count": 21,
+      "geometry_type": "Mixed"
+    },
+    {
+      "filename": "ukrainian_units.geojson",
+      "label": "Ukrainian Unit Positions",
+      "feature_count": 538,
+      "geometry_type": "Point"
+    },
+    {
+      "filename": "russian_units.geojson",
+      "label": "Russian Unit Positions",
+      "feature_count": 996,
+      "geometry_type": "Point"
+    },
+    {
+      "filename": "archive_2025_h1.geojson",
+      "label": "Archive Jan\u2013Jun 2025",
+      "feature_count": 9525,
+      "geometry_type": "Point"
+    },
+    {
+      "filename": "archive_2025_h2.geojson",
+      "label": "Archive Jul\u2013Dec 2025",
+      "feature_count": 8726,
+      "geometry_type": "Point"
+    },
+    {
+      "filename": "archive_2026_h1.geojson",
+      "label": "Archive Jan\u2013Jun 2026",
+      "feature_count": 8820,
+      "geometry_type": "Point"
+    },
+    {
+      "filename": "geolocations_ua_recent.geojson",
+      "label": "Ukraine Geolocations (Recent)",
+      "feature_count": 454,
+      "geometry_type": "Point"
+    },
+    {
+      "filename": "geolocations_ru_recent.geojson",
+      "label": "Russia Geolocations (Recent)",
+      "feature_count": 742,
+      "geometry_type": "Point"
+    }
+  ]
+}

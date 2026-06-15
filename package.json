@@ -1,0 +1,27 @@
+{
+  "name": "kepler-ua-map",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "convert": "python3 convert_kmz.py",
+    "update": "python3 convert_kmz.py && cp -r data/ public/data/"
+  },
+  "dependencies": {
+    "kepler.gl": "3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.0",
+    "redux": "^4.2.1",
+    "styled-components": "^5.3.11",
+    "react-palm": "^3.3.8",
+    "react-virtualized-auto-sizer": "^1.0.24"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "@vitejs/plugin-react": "^4.3.0"
+  }
+}
